@@ -14,7 +14,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    color: #ffffff;
+    color: gold;
     text-align: center;
 }
 
@@ -27,6 +27,7 @@
     margin-bottom: 0.75rem;
     font-size: 3rem;
     line-height: 1.2;
+    
 }
 
 .workout-intro p {
@@ -47,6 +48,7 @@
     margin-bottom: 2rem;
     text-align: center;
     font-size: 2rem;
+    text-shadow: 2px 2px gold;
 }
 
 /* ----- Workout form ----- */
@@ -104,6 +106,7 @@
     margin-bottom: 2rem;
     text-align: center;
     font-size: 2rem;
+    text-shadow: 2px 2px gold;
 }
 
 #workout-content {

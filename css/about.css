@@ -160,6 +160,46 @@
     color: #d4d4d8;
 }
 
+/* Kontaktformuläret */
+.contact-form {
+    display: flex;              /* Använder flexbox */
+    flex-direction: column;     /* Placerar elementen under varandra */
+    gap: 10px;                  /* Avstånd mellan fälten */
+    max-width: 500px;           /* Begränsar formulärets bredd */
+    margin: 0 auto;             /* Centrerar formuläret */
+}
+
+.contact-section h2{
+    text-align: center;
+    font-family: cursive;
+    text-shadow: 2px 2px  goldenrod;
+}
+
+.contact-section p{
+    text-align: center;
+    font-family: cursive;
+}
+
+.contact-section label{
+    font-family: cursive;
+    text-shadow: 2px 2px goldenrod;
+}
+
+
+/* Textfält och meddelandefält */
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;              /* Ger plats runt texten */
+    font-size: 16px;            /* Bestämmer textens storlek */
+    border: 1px solid #ccc;     /* Skapar en tunn kant */
+    border-radius: 5px;         /* Rundar hörnen */
+}
+
+/* Etiketterna */
+.contact-form label {
+    font-weight: bold;          /* Gör texten fet */
+}
+
 /* ----- Responsive design ----- */
 
 @media (max-width: 768px) {

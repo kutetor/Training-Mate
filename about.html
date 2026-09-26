@@ -147,6 +147,65 @@
             </div>
         </section>
 
+        <!-- Contact form -->
+<section class="contact-section">
+
+    <!-- Rubrik för kontaktformuläret -->
+    <h2>Kontakta oss</h2>
+
+    <!-- Kort information om kontaktformuläret -->
+    <p>
+        Har du några frågor eller vill du komma i kontakt med oss? Använd formuläret nedan för att skicka ett meddelande till oss!
+    </p>
+
+    <!-- Formuläret där användaren kan skriva sitt meddelande -->
+    <form class="contact-form">
+
+        <!-- Namn på användaren -->
+        <label for="name">Name</label>
+
+        <!-- Inputfält där användaren skriver sitt namn -->
+        <input 
+            type="text" 
+            id="name" 
+            name="name" 
+            placeholder="Enter your name"
+            required
+        >
+
+        <!-- E-postadress -->
+        <label for="email">Email</label>
+
+        <!-- Inputfält för användarens e-postadress -->
+        <input 
+            type="email" 
+            id="email" 
+            name="email" 
+            placeholder="Enter your email"
+            required
+        >
+
+        <!-- Rubrik för meddelandet -->
+        <label for="message">Message</label>
+
+        <!-- Större textfält där användaren kan skriva sitt meddelande -->
+        <textarea 
+            id="message" 
+            name="message" 
+            rows="5" 
+            placeholder="Write your message"
+            required
+        ></textarea>
+
+        <!-- Knapp som används för att skicka formuläret -->
+        <button type="submit" class="btn">
+            Send Message
+        </button>
+
+    </form>
+
+    </section>
+
         <!-- Call to action -->
         <section class="about-cta">
             <h2>Ready to Train?</h2>
